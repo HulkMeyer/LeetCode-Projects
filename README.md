@@ -20,6 +20,7 @@ Each problem lives in its own folder containing the original problem description
 | # | Problem | Approaches | Folder |
 |---|---------|------------|--------|
 | 1 | Two Sum | Brute Force, Hash Map (Find Complement) | [Two Sums Problem](./Two%20Sums%20Problem) |
+| 2 | Contains Duplicates | *In progress* | [Contains Duplicates](./Contains%20Duplicates) |
 
 ## Repository Structure
 
@@ -28,10 +29,11 @@ LeetCode-Projects/
 ├── LeetCode Project Top Image.png
 ├── Two Sums Problem/
 │   ├── Images/
-│   │   └── Problem Description.png
 │   ├── Scripts/
-│   │   ├── solution_1_brute_force.py
-│   │   └── solution_2_find_complement.py
+│   └── README.md
+├── Contains Duplicates/
+│   ├── Images/
+│   ├── Scripts/
 │   └── README.md
 └── README.md
 ```
