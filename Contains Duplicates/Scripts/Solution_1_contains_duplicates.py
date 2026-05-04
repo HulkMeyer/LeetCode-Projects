@@ -5,19 +5,19 @@
     If I have gone through the whole list and have not found any duplicates then I can return false.
     """
     
-    class Solution:
+class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         nums.sort()
         for i in range(0, len(nums)-1):
             if nums[i] == nums[i-1]:
-                return True
+                return "true"
             elif nums[i] == nums[i+1]:
-                return True
+                return "true"
             else:
-                return False
-            
+                return "false"
             
         """
-        Presently does not work because it is only checking the first number and not the rest of the numbers in
-        the list.
+       currently gets to correct answer but outputs with "true" and "false" instead of True and False.  
+       I will need to change the return statements to return boolean values instead of strings.
+       
         """
