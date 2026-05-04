@@ -10,7 +10,7 @@ A LeetCode problem walkthrough with two different approaches: a brute-force solu
 
 ### Solution 1 — Brute Force
 
-File: [`solution_1_brute_force.py`](solution_1_brute_force.py)
+File: [`Scripts/solution_1_brute_force.py`](Scripts/solution_1_brute_force.py)
 
 ```python
 class Solution:
@@ -32,7 +32,7 @@ Simple and easy to reason about, but it scales poorly for large inputs.
 
 ### Solution 2 — Find Complement (Hash Map)
 
-File: [`solution_2_find_complement.py`](solution_2_find_complement.py)
+File: [`Scripts/solution_2_find_complement.py`](Scripts/solution_2_find_complement.py)
 
 ```python
 class Solution:
@@ -60,7 +60,8 @@ This is the optimal solution and the one typically expected in interviews.
 Two Sums Problem/
 ├── Images/
 │   └── Problem Description.png
-├── solution_1_brute_force.py
-├── solution_2_find_complement.py
+├── Scripts/
+│   ├── solution_1_brute_force.py
+│   └── solution_2_find_complement.py
 └── README.md
 ```
