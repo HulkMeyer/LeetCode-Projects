@@ -1,3 +1,5 @@
+![LeetCode Projects](LeetCode%20Project%20Top%20Image.png)
+
 # LeetCode Projects
 
 A collection of Python solutions to LeetCode problems, built up as part of ongoing practice and interview preparation.
@@ -23,6 +25,7 @@ Each problem lives in its own folder containing the original problem description
 
 ```
 LeetCode-Projects/
+├── LeetCode Project Top Image.png
 ├── Two Sums Problem/
 │   ├── Images/
 │   │   └── Problem Description.png
