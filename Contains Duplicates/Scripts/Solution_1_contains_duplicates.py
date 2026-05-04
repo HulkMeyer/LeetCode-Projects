@@ -9,14 +9,10 @@ class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         nums.sort()
         for i in range(0, len(nums)-1):
-            if nums[i] == nums[i-1]:
-                return "true"
-            elif nums[i] == nums[i+1]:
-                return "true"
-            else:
-                return "false"
-            
-        """
+            if nums[i] == nums[i+1]:
+                return True
+        return False
+
        currently gets to correct answer but outputs with "true" and "false" instead of True and False.  
        I will need to change the return statements to return boolean values instead of strings.
        
