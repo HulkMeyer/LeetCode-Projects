@@ -13,7 +13,3 @@ class Solution:
                 return True
         return False
 
-       currently gets to correct answer but outputs with "true" and "false" instead of True and False.  
-       I will need to change the return statements to return boolean values instead of strings.
-       
-        """
