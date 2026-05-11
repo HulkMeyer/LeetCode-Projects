@@ -20,7 +20,8 @@ Each problem lives in its own folder containing the original problem description
 | # | Problem | Approaches | Folder |
 |---|---------|------------|--------|
 | 1 | Two Sum | Brute Force, Hash Map (Find Complement) | [Two Sums Problem](./Two%20Sums%20Problem) |
-| 2 | Contains Duplicates | *In progress* | [Contains Duplicates](./Contains%20Duplicates) |
+| 2 | Contains Duplicates | Sort + Adjacent Compare, Hash Set | [Contains Duplicates](./Contains%20Duplicates) |
+| 3 | Palindrome Number | Two-Pointer (Outside In), Two-Pointer (Middle Out) | [Palindrome Number](./Palindrome%20Number) |
 
 ## Repository Structure
 
@@ -32,6 +33,10 @@ LeetCode-Projects/
 │   ├── Scripts/
 │   └── README.md
 ├── Contains Duplicates/
+│   ├── Images/
+│   ├── Scripts/
+│   └── README.md
+├── Palindrome Number/
 │   ├── Images/
 │   ├── Scripts/
 │   └── README.md
